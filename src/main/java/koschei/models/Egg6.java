@@ -2,8 +2,6 @@ package koschei.models;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-@Component
 public class Egg6 {
 
     private Needle7 needle;
@@ -15,6 +13,6 @@ public class Egg6 {
 
     @Override
     public String toString() {
-        return ", there's a needle in the egg " + needle.toString();
-    }//в яйце иголка
+        return ", в яйце иголка " + needle.toString();
+    }//в яйце иголка...there's a needle in the egg
 }

@@ -2,8 +2,6 @@ package koschei.models;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-@Component
 public class Rabbit4 {
     private Duck5 duck;
 
@@ -14,6 +12,6 @@ public class Rabbit4 {
 
     @Override
     public String toString() {
-        return ", There 's a duck in the hare " + duck.toString();
-    }//в зайце утка
+        return ", в зайце утка " + duck.toString();
+    }//в зайце утка...There 's a duck in the hare
 }

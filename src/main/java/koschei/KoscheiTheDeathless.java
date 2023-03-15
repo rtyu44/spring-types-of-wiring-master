@@ -16,4 +16,5 @@ public class KoscheiTheDeathless {
     public void setOcean(Ocean1 ocean) {
         this.ocean = ocean;
     }
+
 }
